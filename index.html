@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informe Final: Sistema de Gestión de Cuentas por Cobrar</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Informe Final: Sistema de Gestión de Cuentas por Cobrar</h1>
+        <h2>Metodología: Desarrollo Iterativo e Incremental</h2>
+    </header>
+
+    <div class="category-filter">
+        <button class="filter-btn active" data-category="todas">🌐 Todas</button>
+        <button class="filter-btn" data-category="introduccion">📌 Introducción</button>
+        <button class="filter-btn" data-category="fases">⚙️ Fases del Desarrollo</button>
+        <button class="filter-btn" data-category="estructura">📊 Estructura Iterativa</button>
+        <button class="filter-btn" data-category="ventajas">👍 Ventajas</button>
+        <button class="filter-btn" data-category="resultados">📈 Resultados</button>
+        <button class="filter-btn" data-category="lecciones">💡 Lecciones Aprendidas</button>
+        <button class="filter-btn" data-category="producto">📦 Producto Final</button>
+    </div>
+
+    <div class="cards-container">
+
+<div class="info-card" id="introduccion" data-category="introduccion">
+    <div class="card-header">
+        <h2>1. Introducción</h2>
+        <span class="toggle-icon">▼</span>
+    </div>
+    <img src="https://placehold.co/600x360/1D1A39/E8BCB9?text=Metodología+Iterativa" alt="Esquema de metodología iterativa" class="card-image">
+    <div class="card-content-wrapper">
+        <div class="card-content">
+            <p>El proyecto se desarrolló bajo la metodología <strong>Iterativa e Incremental</strong>, priorizando la entrega de funcionalidades en ciclos cortos con retroalimentación continua. Este enfoque permitió:</p>
+            <ul>
+                <li>Adaptación a cambios en requisitos</li>
+                <li>Detección temprana de errores</li>
+                <li>Entrega de valor progresivo</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="info-card" id="fase1" data-category="fases">
+    <div class="card-header">
+        <h2>2. Fases del Desarrollo - Iteración 1: Núcleo Básico</h2>
+        <span class="toggle-icon">▼</span>
+    </div>
+    <img src="https://placehold.co/600x360/451952/E8BCB9?text=Iteración+1+Clientes" alt="Diagrama de gestión de clientes" class="card-image">
+    <div class="card-content-wrapper">
+        <div class="card-content">
+            <p><strong>Sprint 1 - 2 semanas</strong></p>
+            <p><strong>Objetivo:</strong> MVP para gestión básica de clientes.</p>
+            <h3>Entregables:</h3>
+            <ul>
+                <li><strong>Backend:</strong> CRUD de clientes (Node.js + PostgreSQL)</li>
+                <li><strong>Frontend:</strong> Listado y formulario de clientes (React)</li>
+            </ul>
+            <h3>Resultado:</h3>
+            <p><i>(Se describe un diagrama que no se pudo renderizar, indicando el flujo o la estructura básica del módulo de clientes)</i></p>
+            <p>Texto Original: "DiagramCode Download Mermaid rendering failed."</p>
+        </div>
+    </div>
+</div>
+
+<div class="info-card" id="fase2" data-category="fases">
+    <div class="card-header">
+        <h2>2. Fases del Desarrollo - Iteración 2: Gestión Financiera</h2>
+        <span class="toggle-icon">▼</span>
+    </div>
+    <img src="https://placehold.co/600x360/662549/E8BCB9?text=Iteración+2+Finanzas" alt="Diagrama de transacciones financieras" class="card-image">
+    <div class="card-content-wrapper">
+        <div class="card-content">
+            <p><strong>Sprint 2 - 2 semanas</strong></p>
+            <p><strong>Objetivo:</strong> Sistema de transacciones y cálculo de saldos.</p>
+            <h3>Entregables:</h3>
+            <ul>
+                <li>Modelo de transacciones (abonos/cargos)</li>
+                <li>Endpoint para cálculo de saldo en tiempo real</li>
+                <li>Componente de transacciones en React</li>
+            </ul>
+            <h3>Mejoras Incrementales:</h3>
+            <ul>
+                <li>Integración de tasa de dólar para conversión</li>
+                <li>Historial de transacciones interactivo</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="info-card" id="fase3" data-category="fases">
+    <div class="card-header">
+        <h2>2. Fases del Desarrollo - Iteración 3: Reportes y Optimización</h2>
+        <span class="toggle-icon">▼</span>
+    </div>
+    <img src="https://placehold.co/600x360/AE445A/FFFFFF?text=Iteración+3+Reportes" alt="Dashboard de reportes" class="card-image">
+    <div class="card-content-wrapper">
+        <div class="card-content">
+            <p><strong>Sprint 3 - 1.5 semanas</strong></p>
+            <p><strong>Objetivo:</strong> Herramientas de análisis y experiencia de usuario.</p>
+            <h3>Entregables:</h3>
+            <ul>
+                <li>Generación de reportes PDF por fecha</li>
+                <li>Dashboard de deudas con gráficos (Recharts)</li>
+                <li>Búsqueda avanzada de clientes</li>
+            </ul>
+            <h3>Métrica Clave:</h3>
+            <p>Tiempo promedio de registro de transacción: 3.2s → <strong>1.8s</strong></p>
+        </div>
+    </div>
+</div>
+
+<div class="info-card" id="estructura" data-category="estructura">
+    <div class="card-header">
+        <h2>3. Estructura Iterativa</h2>
+        <span class="toggle-icon">▼</span>
+    </div>
+    <img src="https://placehold.co/600x360/F39F5A/1D1A39?text=Cronograma+Iteraciones" alt="Cronograma de iteraciones del proyecto" class="card-image">
+    <div class="card-content-wrapper">
+        <div class="card-content">
+            <p><i>(Se describe un diagrama de Gantt o cronograma visual que no se pudo renderizar. El cronograma muestra las iteraciones a lo largo del tiempo, desde el 1 de octubre de 2023 hasta mediados de noviembre de 2023, detallando las tareas principales por iteración como Backend, Frontend, Módulo Transacciones, Conversión USD, Reportes PDF y Optimización UI).</i></p>
+            <p>Texto Original: "DiagramCode Download Mermaid rendering failed. [...] Cronograma de Iteraciones"</p>
+            <h3>Descripción del Cronograma Visualizado:</h3>
+            <ul>
+                <li><strong>Fechas Aproximadas:</strong> Octubre 2023 - Noviembre 2023</li>
+                <li><strong>Iteración 1 (aprox. 2 semanas desde 2023-10-01):</strong>
+                    <ul>
+                        <li>Desarrollo Backend (Clientes)</li>
+                        <li>Desarrollo Frontend (Clientes)</li>
+                    </ul>
+                </li>
+                <li><strong>Iteración 2 (aprox. 2 semanas desde ~2023-10-15):</strong>
+                    <ul>
+                        <li>Módulo Transacciones</li>
+                        <li>Conversión USD</li>
+                    </ul>
+                </li>
+                <li><strong>Iteración 3 (aprox. 1.5 semanas desde ~2023-10-29):</strong>
+                    <ul>
+                        <li>Reportes PDF</li>
+                        <li>Optimización UI</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="info-card" id="ventajas" data-category="ventajas">
+    <div class="card-header">
+        <h2>4. Ventajas de la Metodología</h2>
+        <span class="toggle-icon">▼</span>
+    </div>
+    <img src="https://placehold.co/600x360/E8BCB9/1D1A39?text=Beneficios+Metodología" alt="Iconos representando beneficios" class="card-image">
+    <div class="card-content-wrapper">
+        <div class="card-content">
+            <ul>
+                <li><strong>Flexibilidad:</strong>
+                    <ul>
+                        <li>Cambio de prioridades: Inicialmente sin tasa de dólar → Incorporada en Iteración 2 tras feedback.</li>
+                    </ul>
+                </li>
+                <li><strong>Gestión de Riesgos:</strong>
+                    <ul>
+                        <li>Errores en cálculo de saldo detectados y corregidos en etapa temprana.</li>
+                    </ul>
+                </li>
+                <li><strong>Retroalimentación Continua:</strong>
+                    <ul>
+                        <li>Usuarios probaron MVP en Iteración 1 → Sugirieron filtros de búsqueda.</li>
+                    </ul>
+                </li>
+                <li><strong>Entrega de Valor Constante:</strong>
+                    <ul>
+                        <li>Funcionalidad útil desde la primera iteración.</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="info-card" id="resultados" data-category="resultados">
+    <div class="card-header">
+        <h2>5. Resultados por Iteración</h2>
+        <span class="toggle-icon">▼</span>
+    </div>
+    <img src="https://placehold.co/600x360/1D1A39/E8BCB9?text=Tabla+Resultados" alt="Tabla de resultados por iteración" class="card-image">
+    <div class="card-content-wrapper">
+        <div class="card-content">
+            <div class="comparison-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Iteración</th>
+                            <th>Funcionalidades Clave</th>
+                            <th>Cobertura de Pruebas</th>
+                            <th>Deuda Técnica</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>CRUD Clientes, Validaciones</td>
+                            <td>65%</td>
+                            <td>8 puntos</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Transacciones, Saldos, Conversión USD</td>
+                            <td>82%</td>
+                            <td>5 puntos</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Reportes PDF, Dashboard, Búsqueda</td>
+                            <td>91%</td>
+                            <td>2 puntos</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="info-card" id="lecciones" data-category="lecciones">
+    <div class="card-header">
+        <h2>6. Lecciones Aprendidas</h2>
+        <span class="toggle-icon">▼</span>
+    </div>
+    <img src="https://placehold.co/600x360/451952/E8BCB9?text=Lecciones+Aprendidas" alt="Icono de bombilla representando ideas" class="card-image">
+    <div class="card-content-wrapper">
+        <div class="card-content">
+            <h3>Técnicas:</h3>
+            <ul>
+                <li>PostgreSQL + Sequelize optimiza consultas financieras complejas.</li>
+                <li>React Context mejora gestión de estado en flujos transaccionales.</li>
+            </ul>
+            <h3>Metodológicas:</h3>
+            <ul>
+                <li>Sprint reviews semanales aceleraron detección de desviaciones.</li>
+                <li>Pair programming crítico para componentes complejos (ej: cálculo de saldo).</li>
+            </ul>
+            <h3>Organizacionales:</h3>
+            <ul>
+                <li>Documentación técnica debe crecer paralelamente al código.</li>
+                <li>Pruebas E2E son indispensables para flujos financieros.</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="info-card" id="producto" data-category="producto">
+    <div class="card-header">
+        <h2>7. Producto Final</h2>
+        <span class="toggle-icon">▼</span>
+    </div>
+    <img src="https://placehold.co/600x360/662549/E8BCB9?text=Producto+Final" alt="Esquema de la arquitectura final del producto" class="card-image">
+    <div class="card-content-wrapper">
+        <div class="card-content">
+            <h4>Descripción de Componentes:</h4>
+            <ul>
+                <li><strong>Frontend (React):</strong>
+                    <ul><li>Utiliza Axios para comunicación con el Backend.</li></ul>
+                </li>
+                <li><strong>Backend (Node.js, API REST):</strong>
+                    <ul>
+                        <li>Servicios:
+                            <ul>
+                                <li>Gestión Clientes</li>
+                                <li>Registro Transacciones</li>
+                                <li>Dashboard</li>
+                                <li>Validaciones</li>
+                                <li>PDF Generator</li>
+                            </ul>
+                        </li>
+                        <li>Interactúa con <strong>Base de Datos PostgreSQL</strong>.</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h3>Estadísticas:</h3>
+            <ul>
+                <li>98% de endpoints probados con Jest/Supertest</li>
+                <li>85% de cobertura de código</li>
+                <li>500+ transacciones simuladas en pruebas de carga</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+</div>
+<footer>
+    <p>&copy; 2025 Todos los derechos reservados</p>
+</footer>
+<script src="scrip.js"></script>
+</body>
+</html>
